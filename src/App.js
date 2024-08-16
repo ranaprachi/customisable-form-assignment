@@ -14,14 +14,14 @@ const formConfig = {
           name: 'firstName',
           isMandatory: true
       }, {
-          type: 'text',
-          label: 'Song',
-          placeholder: 'Song',
-          value: '',
-          error: '',
-          name: 'song',
-          isMandatory: true
-      },]
+        type: 'text',
+        label: 'Last Name',
+        placeholder: 'Last Name',
+        value: '',
+        error: '',
+        name: 'lastName',
+        isMandatory: true
+    },]
   }, {
       title: 'Interests',
       config: [{
@@ -33,14 +33,14 @@ const formConfig = {
           name: 'movie',
           isMandatory: true
       }, {
-          type: 'text',
-          label: 'Last Name',
-          placeholder: 'Last Name',
-          value: '',
-          error: '',
-          name: 'lastName',
-          isMandatory: true
-      },]
+        type: 'text',
+        label: 'Song',
+        placeholder: 'Song',
+        value: '',
+        error: '',
+        name: 'song',
+        isMandatory: true
+    },]
   }, {
       title: 'Account',
       config: [{
